@@ -1,58 +1,123 @@
-
 body {
-    font-family: "Open Sans", sans-serif;
-    
-    text-align: center;
     margin: 0px;
+    font-family: "Open Sans", serif;
+
+   
+    background: linear-gradient(180deg, rgba(227,255,248,0) 88%, rgb(202, 252, 239,0.3) 100%);
+     
+    min-height: 100vh;
+    
 }
- 
-#hero {
-    width: 592px;
-    margin: 0px auto 72px;
- }
 
- #hero img {
-     margin-bottom: 72px;   
+.page { 
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 65px;
+}
 
- }
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+   margin-bottom: 55px;
+  
+
+}
+
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #1F1534;
+
+}
+ul li a {
+    opacity: 0.5;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+h1, ul {
+    font-family: "Mulish", sans-serif;
+
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 h1 {
-    font-family: "Inter", sans-serif;
     font-size: 49px;
     line-height: 56px;
-    font-weight: normal;
+    color: #1F1534;
     
-    margin-bottom: 32px;
+    font-weight: normal;
+
+    width: 490px;
 }
 
-  h1 span { 
+h1 span {
+    color: #89C5CC;
+    font-weight: bold;
+
+}
+
+section p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 40px 0;
+    width: 440px;
+}
+
+button {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Open Sans", serif;
     
+    background: #69B99D;
+    border: 0;
+    padding: 14px 32px 15px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    border-radius: 4px;
+    
+    cursor: pointer;
+}
+
+button:hover {
+    background: #488f76;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 28px;
+    
+    text-align: center;
+
+    margin-top: 80px;
+}
+footer a {
     font-weight: bold;
 }
 
-span , a {
-    color: #FF9900;
-}
-p , #footer {
-    color: #7D7987;
-    font-size: 14px;
-    line-height: 28px;
-}
-
-#footer a + a {
-           margin-left: 28px;   
-} 
-
-#line {
-    width: 568px;
-    height: 0px;
-
-    border: 1px solid #ECEFF2;
-
-    margin: 0px auto 8px;
-    }
 #balls {
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
 }
